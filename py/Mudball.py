@@ -57,7 +57,7 @@ def get_player_names():
         else:
             done = True
 
-    print()
+    print("players are:%s" % players)#or I think you can delete this "print".
     return players
 
 
